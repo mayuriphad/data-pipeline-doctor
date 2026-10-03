@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "data-pipeline-doctor"
+version = "0.1.0"
+description = "Static health checker for Airflow, dbt, Pandas and SQL projects."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+  {name = "Mayuri", email = "mayuriphad656@gmail.com"}
+]
+dependencies = []
+
+[project.scripts]
+data-pipeline-doctor = "cli:main"
+
+[tool.setuptools]
+py-modules = ["engine", "checks", "cli"]
