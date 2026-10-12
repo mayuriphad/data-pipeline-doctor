@@ -1,5 +1,9 @@
 # data-pipeline-doctor
 
+[![PyPI](https://img.shields.io/pypi/v/data-pipeline-doctor.svg)](https://pypi.org/project/data-pipeline-doctor/)
+[![Downloads](https://img.shields.io/pypi/dm/data-pipeline-doctor.svg)](https://pypistats.org/packages/data-pipeline-doctor)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
 A zero-dependency **static health checker** for data engineering projects.
 It reads your Airflow DAGs, dbt models, SQL and Python files, flags common
 problems, and gives the project a score out of 100. **It never imports or
